@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #EEEFF1;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.explore{
+    background: #F5F7FD;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+    outline: 1px solid #F5F7FD;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+header .logo{
+    width: 200px;
+}
+
+header .logo img{
+    padding: 20px;
+    width: 60%;
+}
+
+.menu{
+    display: flex;
+    gap: 20px;
+}
+
+.right img{
+    width: 80%;
+}
+
+
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left h1{
+    font-weight: bold;
+    font-size: 80px;
+    padding: 20px;
+}
+
+.left h2{
+    font-weight: lighter;
+    font-size: 20px;
+    color: #64646A;
+    padding: 20px;
+    max-width: 370px;
+}
+
+.left a{
+    display: inline-block;
+    padding: 20px 35px;
+    border-radius: 50px;
+    background: #000;
+    color: white;
+    gap: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.title h1{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.title h2{
+    display: flex;
+    justify-content: center;
+    font-weight: lighter;
+    font-size: 20px;
+    color: #64646A;
+}
+
+.title p{
+    display: flex;
+    justify-content: center;
+    font-weight: lighter;
+    font-size: 20px;
+    color: #64646A;
+}
+
+.row{
+    padding: 20px;
+    outline: 1px solid #F5F7FD;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    background: #F5F7FD;
+}
+
+.col{
+    width: 100px;
+    flex-shrink: 1;
+    flex-grow: 1;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 20px;
+}
+
+.col h2{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.col p{
+    font-weight: lighter;
+    font-size: 15px;
+    color: #64646A;
+    max-width: 200px;
+}
+
+.col img{
+    display: block;
+    margin: 0 auto;
+}
+
+.btm1{
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    margin: 50px;
+    border-radius: 50px;
+    background: #000;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.super{
+    display: flex;
+    justify-content: space-between;
+    background: #F5F7FD;
+}
+
+.sright h1{
+    font-weight: bold;
+    font-size: 50px;
+    padding: 15px;
+    width: 512px;
+    height: 140px;
+}
+
+.descrip{
+    font-weight: lighter;
+    font-size: 20px;
+    color: #64646A;
+    padding: 20px;
+    max-width: 370px;
+}
+
+.btmt{
+    display: inline-block;
+    padding: 20px;
+    border-radius: 50px;
+    background: #000;
+    color: white;
+    gap: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.sleft img{
+    width: 80%;
+    padding: 26px;
+}
